@@ -30,3 +30,15 @@ p {
 	font-size: 21px;
 	color: gray;
 }
+
+#copyright {
+	align-content: right;
+}
+
+html {
+    position: relative;
+    min-width: 1280px;
+    min-height: 1938px;
+    height: 100%;
+    overflow: auto;
+}
