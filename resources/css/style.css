@@ -3,6 +3,13 @@ body {
 	text-align: center;
 }
 
+.contentContainer {
+	position: relative;
+    width: 1280px;
+    height: 100%;
+    margin: 0px auto;
+}
+
 h1 {
 	font-family: Verdana;
 	font-weight: normal;
@@ -32,13 +39,9 @@ p {
 }
 
 #copyright {
-	align-content: right;
+	text-align: right;
 }
 
-html {
-    position: relative;
-    min-width: 1280px;
-    min-height: 1938px;
-    height: 100%;
-    overflow: auto;
+img.fullWidth {
+	width: 100%;
 }
